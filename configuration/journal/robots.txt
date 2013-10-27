@@ -1,0 +1,61 @@
+User-agent: ArchitectSpider
+Disallow: /search
+Allow: /
+
+User-agent: ArchitextSpider
+Disallow: /search
+Allow: /
+
+User-agent: baiduspider
+Disallow: /search
+Allow: /
+
+User-agent: bingbot
+Disallow: /search
+Allow: /
+
+User-agent: CCBot
+Disallow: /search
+Allow: /
+
+User-agent: Googlebot
+Disallow: /search
+Allow: /
+
+User-agent: msnbot
+Disallow: /search
+Allow: /
+
+User-agent: naverbot
+Disallow: /search
+Allow: /
+
+User-agent: Scooter
+Disallow: /search
+Allow: /
+
+User-agent: seznambot
+Disallow: /search
+Allow: /
+
+User-agent: Slurp
+Disallow: /search
+Allow: /
+
+User-agent: Telefonica
+Disallow: /search
+Allow: /
+
+User-agent: teoma
+Disallow: /search
+Allow: /
+
+User-agent: Yandex
+Disallow: /search
+Allow: /
+
+User-agent: *
+Disallow: /p/
+
+User-agent: *
+Disallow: /

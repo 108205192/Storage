@@ -1,0 +1,62 @@
+﻿/*
+	Blogger Template Designer
+		Advanced
+			Page
+				Text Color
+					#000000
+				Background Color
+					#eeeeee
+			Header
+				Background Color
+					#f3f3f3
+			Header Bar
+				Background Color
+					#191919
+				Text Color
+					#ffffff
+			Links
+				Link Color
+					#0099ff
+				Link Hover Color
+					#9900ff
+				Link Visited Color
+					#cc000b
+			Blog Title
+				Color
+					#000000
+			Blog Description
+				Color
+					#0b5394
+			Post Title
+				Color
+					#000000
+			Date Ribbon
+				Color
+					#0b5394
+				Hover Color
+					#351c75
+*/
+
+blockquote.blockquote1, blockquote.blockquote2, blockquote.blockquote3
+{
+	padding: 8px;
+}
+blockquote.blockquote1
+{
+	background: #e6e6ff;
+}
+blockquote.blockquote2
+{
+	background: #fff6da;
+}
+blockquote.blockquote3
+{
+	background: #ffcc99;
+}
+.comment
+{
+	background-color: #dce6ff;
+	border: medium none;
+	padding: 0.5em;
+	font-size: 10pt;
+}

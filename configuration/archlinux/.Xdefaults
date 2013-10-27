@@ -1,0 +1,141 @@
+!
+! https://wiki.archlinux.org/index.php/Xdefaults
+!
+
+! ----------------------------------------------------------------------------------------
+
+! http://phraktured.net/terminal-colors/ : theme1 ----------------------------------------
+
+*background:					rgb:00/00/00
+*foreground:					rgb:a8/a8/a8
+!*font:						xft:Terminus:pixelsize=10
+*color0:					rgb:00/00/00
+*color1:					rgb:a8/00/00
+*color2:					rgb:00/a8/00
+*color3:					rgb:a8/54/00
+*color4:					rgb:00/00/a8
+*color5:					rgb:a8/00/a8
+*color6:					rgb:00/a8/a8
+*color7:					rgb:a8/a8/a8
+*color8:					rgb:54/50/54
+*color9:					rgb:f8/54/50
+*color10:					rgb:50/fc/50
+*color11:					rgb:f8/fc/50
+*color12:					rgb:50/54/f8
+*color13:					rgb:f8/54/f8
+*color14:					rgb:50/fc/f8
+*color15:					rgb:f8/fc/f8
+
+! Xft ------------------------------------------------------------------------------------
+
+!Xft.font:					
+Xft.dpi:					96
+Xft.antialias:					true
+Xft.rgba:					rgb
+Xft.hinting:					true
+Xft.hintstyle:					hintfull
+
+! hintnone
+! hintslight
+! hintmedium
+! hintfull
+
+! xcalc ----------------------------------------------------------------------------------
+
+xcalc.ti.bevel.background:			#111111
+xcalc.ti.bevel.screen.background:		#000000
+xcalc.ti.bevel.screen.DEG.background:		#000000
+xcalc.ti.bevel.screen.DEG.foreground:		LightSeaGreen
+xcalc.ti.bevel.screen.GRAD.background:		#000000
+xcalc.ti.bevel.screen.GRAD.foreground:		LightSeaGreen
+xcalc.ti.bevel.screen.RAD.background:		#000000
+xcalc.ti.bevel.screen.RAD.foreground:		LightSeaGreen
+xcalc.ti.bevel.screen.INV.background:		#000000
+xcalc.ti.bevel.screen.INV.foreground:		Red
+xcalc.ti.bevel.screen.LCD.background:		#000000
+xcalc.ti.bevel.screen.LCD.foreground:		LightSeaGreen
+xcalc.ti.bevel.screen.LCD.shadowWidth:		0
+xcalc.ti.bevel.screen.M.background:		#000000
+xcalc.ti.bevel.screen.M.foreground:		LightSeaGreen
+xcalc.ti.bevel.screen.P.background:		#000000
+xcalc.ti.bevel.screen.P.foreground:		Yellow
+xcalc.ti.Command.foreground:			White
+xcalc.ti.Command.background:			#777777
+xcalc.ti.button5.background:			Orange3
+xcalc.ti.button19.background:			#611161
+xcalc.ti.button18.background:			#611161
+xcalc.ti.button20.background:			#611111
+xcalc.ti.button20.label:			/
+xcalc.ti.button25.background:			#722222
+xcalc.ti.button30.background:			#833333
+xcalc.ti.button35.background:			#944444
+xcalc.ti.button40.background:			#a55555
+xcalc.ti.button22.background:			#222262
+xcalc.ti.button23.background:			#222262
+xcalc.ti.button24.background:			#222272
+xcalc.ti.button27.background:			#333373
+xcalc.ti.button28.background:			#333373
+xcalc.ti.button29.background:			#333373
+xcalc.ti.button32.background:			#444484
+xcalc.ti.button33.background:			#444484
+xcalc.ti.button34.background:			#444484
+xcalc.ti.button37.background:			#555595
+xcalc.ti.button38.background:			#555595
+xcalc.ti.button39.background:			#555595
+
+! urxvt ----------------------------------------------------------------------------------
+
+urxvt*background:				rgba:0000/0000/0000/dddd
+urxvt*foreground:				#bfcfdf
+urxvt*font:					xft:Terminus
+urxvt*boldFont:					xft:Terminus
+urxvt*italicFont:				xft:Terminus
+urxvt*bolditalicFont:				xft:Terminus
+urxvt*scrollBar:				true
+urxvt*internalBorder:				4
+urxvt*geometry:					80x24
+urxvt*inheritPixmap:				true
+urxvt*shading:					10
+urxvt*perl-ext-common:				default,matcher
+urxvt*urlLauncher:				google-chrome-dev
+urxvt*matcher.button:				1
+urxvt*cursorBlink:				true
+urxvt*saveLines:				32768
+
+
+! xterm ----------------------------------------------------------------------------------
+
+xterm*faceName:					Terminus:pixelsize=10
+xterm*foreground:				#bfcfdf
+xterm*background:				#000000
+xterm*cursorColor:				DarkOrange
+xterm*dynamicColors:				true
+xterm*geometry:					80x24
+xterm*saveLines:				32768
+xterm*utf8:					2
+xterm*eightBitInput:				true
+xterm*allowScrollLock:				true
+xterm*allowSendEvents:				true
+xterm*alwaysUseMods:				true
+xterm*jumpScroll:				true
+xterm*multiScroll:				true
+xterm*rightScrollBar:				true
+xterm*scrollBar:				true
+xterm*toolBar:					true
+xterm*charClass:				33:48,35-38:48,39:43,42-47:48,58-59:48,61:48,63-64:48,126:48
+xterm*color0:					#151515
+xterm*color8:					#505450
+xterm*color1:					#bf7979
+xterm*color9:					#f4a45f
+xterm*color2:					#97b26b
+xterm*color10:					#c5f779
+xterm*color3:					#cdcda1
+xterm*color11:					#ffffaf
+xterm*color4:					#4a5463
+xterm*color12:					#7d8794
+xterm*color5:					#9c3885
+xterm*color13:					#e628ba
+xterm*color6:					#88aadd
+xterm*color14:					#99ccff
+xterm*color7:					#ffffff
+xterm*color15:					#dedede
